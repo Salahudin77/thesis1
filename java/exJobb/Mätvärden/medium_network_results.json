@@ -1,0 +1,674 @@
+{
+    "inference_runs": [
+        {
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 2,
+                    "sample_interval_ms": 10,
+                    "peak_heap_mb": 13.214599609375,
+                    "gc_time_ms": 0,
+                    "sample_count": 1,
+                    "gc_count": 0,
+                    "peak_non_heap_mb": 34.068687438964844,
+                    "peak_total_mb": 47.283287048339844
+                },
+                "timeseries": [{
+                    "heap_mb": 13.214599609375,
+                    "time_ms": 0,
+                    "non_heap_mb": 34.068687438964844
+                }]
+            },
+            "execution_time_ms": 2.0762,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.283287048339844,
+            "cpu_time_ms": 0,
+            "run": 1
+        },
+        {
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 2,
+                    "sample_interval_ms": 10,
+                    "peak_heap_mb": 13.231063842773438,
+                    "gc_time_ms": 0,
+                    "sample_count": 1,
+                    "gc_count": 0,
+                    "peak_non_heap_mb": 34.080352783203125,
+                    "peak_total_mb": 47.31141662597656
+                },
+                "timeseries": [{
+                    "heap_mb": 13.231063842773438,
+                    "time_ms": 0,
+                    "non_heap_mb": 34.080352783203125
+                }]
+            },
+            "execution_time_ms": 1.6438,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.31141662597656,
+            "cpu_time_ms": 0,
+            "run": 2
+        },
+        {
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 2,
+                    "sample_interval_ms": 10,
+                    "peak_heap_mb": 13.233619689941406,
+                    "gc_time_ms": 0,
+                    "sample_count": 1,
+                    "gc_count": 0,
+                    "peak_non_heap_mb": 34.09281921386719,
+                    "peak_total_mb": 47.326438903808594
+                },
+                "timeseries": [{
+                    "heap_mb": 13.233619689941406,
+                    "time_ms": 0,
+                    "non_heap_mb": 34.09281921386719
+                }]
+            },
+            "execution_time_ms": 1.67,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.326438903808594,
+            "cpu_time_ms": 0,
+            "run": 3
+        },
+        {
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 1,
+                    "sample_interval_ms": 10,
+                    "peak_heap_mb": 13.234718322753906,
+                    "gc_time_ms": 0,
+                    "sample_count": 1,
+                    "gc_count": 0,
+                    "peak_non_heap_mb": 34.09998321533203,
+                    "peak_total_mb": 47.33470153808594
+                },
+                "timeseries": [{
+                    "heap_mb": 13.234718322753906,
+                    "time_ms": 0,
+                    "non_heap_mb": 34.09998321533203
+                }]
+            },
+            "execution_time_ms": 1.6128,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.33470153808594,
+            "cpu_time_ms": 0,
+            "run": 4
+        },
+        {
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 2,
+                    "sample_interval_ms": 10,
+                    "peak_heap_mb": 13.235816955566406,
+                    "gc_time_ms": 0,
+                    "sample_count": 1,
+                    "gc_count": 0,
+                    "peak_non_heap_mb": 34.12518310546875,
+                    "peak_total_mb": 47.361000061035156
+                },
+                "timeseries": [{
+                    "heap_mb": 13.235816955566406,
+                    "time_ms": 0,
+                    "non_heap_mb": 34.12518310546875
+                }]
+            },
+            "execution_time_ms": 1.6488,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.361000061035156,
+            "cpu_time_ms": 0,
+            "run": 5
+        }
+    ],
+    "system_info": {
+        "available_processors": 12,
+        "max_memory_mb": 4078,
+        "total_memory_mb": 54,
+        "os_version": "10.0",
+        "os_arch": "amd64",
+        "java_version": "23.0.2",
+        "os_name": "Windows 10"
+    },
+    "inference_summary": {
+        "std_dev_peak_memory_mb": 0.02570357787173902,
+        "std_dev_memory_used_mb": 0,
+        "most_common_prediction": 2,
+        "average_execution_time_ms": 1.73032,
+        "average_memory_used_mb": 0,
+        "average_peak_memory_mb": 47.323368835449216,
+        "std_dev_execution_time_ms": 0.1739043691228027
+    },
+    "training": {
+        "evaluation": {
+            "precision": 0.9768805793602379,
+            "recall": 0.9768612552131228,
+            "accuracy": 0.977,
+            "f1": 0.9768333333139857
+        },
+        "memory_profile": {
+            "summary": {
+                "duration_ms": 9934,
+                "sample_interval_ms": 100,
+                "peak_heap_mb": 226.74827575683594,
+                "gc_time_ms": 133,
+                "sample_count": 100,
+                "gc_count": 39,
+                "peak_non_heap_mb": 32.55101776123047,
+                "peak_total_mb": 259.2992935180664
+            },
+            "timeseries": [
+                {
+                    "heap_mb": 12.2193603515625,
+                    "time_ms": 0,
+                    "non_heap_mb": 25.801864624023438
+                },
+                {
+                    "heap_mb": 40.78893280029297,
+                    "time_ms": 108,
+                    "non_heap_mb": 25.125160217285156
+                },
+                {
+                    "heap_mb": 61.858306884765625,
+                    "time_ms": 204,
+                    "non_heap_mb": 25.136802673339844
+                },
+                {
+                    "heap_mb": 61.858306884765625,
+                    "time_ms": 300,
+                    "non_heap_mb": 25.182235717773438
+                },
+                {
+                    "heap_mb": 74.6180419921875,
+                    "time_ms": 412,
+                    "non_heap_mb": 26.33991241455078
+                },
+                {
+                    "heap_mb": 75.30967712402344,
+                    "time_ms": 508,
+                    "non_heap_mb": 27.411415100097656
+                },
+                {
+                    "heap_mb": 76.08917236328125,
+                    "time_ms": 605,
+                    "non_heap_mb": 28.120330810546875
+                },
+                {
+                    "heap_mb": 92.08917236328125,
+                    "time_ms": 701,
+                    "non_heap_mb": 28.62066650390625
+                },
+                {
+                    "heap_mb": 92.25614929199219,
+                    "time_ms": 813,
+                    "non_heap_mb": 29.035621643066406
+                },
+                {
+                    "heap_mb": 92.33755493164062,
+                    "time_ms": 909,
+                    "non_heap_mb": 29.217025756835938
+                },
+                {
+                    "heap_mb": 84.51261901855469,
+                    "time_ms": 1005,
+                    "non_heap_mb": 29.493316650390625
+                },
+                {
+                    "heap_mb": 106.51261901855469,
+                    "time_ms": 1101,
+                    "non_heap_mb": 29.543594360351562
+                },
+                {
+                    "heap_mb": 87.25006103515625,
+                    "time_ms": 1213,
+                    "non_heap_mb": 29.616806030273438
+                },
+                {
+                    "heap_mb": 109.25006103515625,
+                    "time_ms": 1309,
+                    "non_heap_mb": 29.655372619628906
+                },
+                {
+                    "heap_mb": 85.30882263183594,
+                    "time_ms": 1405,
+                    "non_heap_mb": 29.767288208007812
+                },
+                {
+                    "heap_mb": 105.30882263183594,
+                    "time_ms": 1501,
+                    "non_heap_mb": 29.912734985351562
+                },
+                {
+                    "heap_mb": 79.95934295654297,
+                    "time_ms": 1613,
+                    "non_heap_mb": 29.97393035888672
+                },
+                {
+                    "heap_mb": 99.95934295654297,
+                    "time_ms": 1710,
+                    "non_heap_mb": 30.021339416503906
+                },
+                {
+                    "heap_mb": 119.95934295654297,
+                    "time_ms": 1806,
+                    "non_heap_mb": 30.200607299804688
+                },
+                {
+                    "heap_mb": 88.34420013427734,
+                    "time_ms": 1902,
+                    "non_heap_mb": 30.28540802001953
+                },
+                {
+                    "heap_mb": 114.34420013427734,
+                    "time_ms": 2013,
+                    "non_heap_mb": 30.360076904296875
+                },
+                {
+                    "heap_mb": 82.43270111083984,
+                    "time_ms": 2109,
+                    "non_heap_mb": 30.398605346679688
+                },
+                {
+                    "heap_mb": 104.43270111083984,
+                    "time_ms": 2205,
+                    "non_heap_mb": 30.423126220703125
+                },
+                {
+                    "heap_mb": 128.43270111083984,
+                    "time_ms": 2301,
+                    "non_heap_mb": 30.549156188964844
+                },
+                {
+                    "heap_mb": 83.11084747314453,
+                    "time_ms": 2413,
+                    "non_heap_mb": 30.59697723388672
+                },
+                {
+                    "heap_mb": 107.11084747314453,
+                    "time_ms": 2509,
+                    "non_heap_mb": 30.697120666503906
+                },
+                {
+                    "heap_mb": 131.11084747314453,
+                    "time_ms": 2605,
+                    "non_heap_mb": 30.703086853027344
+                },
+                {
+                    "heap_mb": 79.1785659790039,
+                    "time_ms": 2701,
+                    "non_heap_mb": 30.752655029296875
+                },
+                {
+                    "heap_mb": 107.1785659790039,
+                    "time_ms": 2812,
+                    "non_heap_mb": 30.84723663330078
+                },
+                {
+                    "heap_mb": 131.1785659790039,
+                    "time_ms": 2908,
+                    "non_heap_mb": 30.85858917236328
+                },
+                {
+                    "heap_mb": 75.42574310302734,
+                    "time_ms": 3004,
+                    "non_heap_mb": 30.90076446533203
+                },
+                {
+                    "heap_mb": 99.42574310302734,
+                    "time_ms": 3100,
+                    "non_heap_mb": 30.909454345703125
+                },
+                {
+                    "heap_mb": 127.42574310302734,
+                    "time_ms": 3212,
+                    "non_heap_mb": 30.96868896484375
+                },
+                {
+                    "heap_mb": 151.42574310302734,
+                    "time_ms": 3308,
+                    "non_heap_mb": 30.99066925048828
+                },
+                {
+                    "heap_mb": 91.61097717285156,
+                    "time_ms": 3404,
+                    "non_heap_mb": 31.042449951171875
+                },
+                {
+                    "heap_mb": 117.61097717285156,
+                    "time_ms": 3500,
+                    "non_heap_mb": 31.057449340820312
+                },
+                {
+                    "heap_mb": 145.61097717285156,
+                    "time_ms": 3612,
+                    "non_heap_mb": 31.090965270996094
+                },
+                {
+                    "heap_mb": 169.61097717285156,
+                    "time_ms": 3708,
+                    "non_heap_mb": 31.115493774414062
+                },
+                {
+                    "heap_mb": 90.94017791748047,
+                    "time_ms": 3804,
+                    "non_heap_mb": 31.151870727539062
+                },
+                {
+                    "heap_mb": 114.94017791748047,
+                    "time_ms": 3901,
+                    "non_heap_mb": 31.20526123046875
+                },
+                {
+                    "heap_mb": 144.94017791748047,
+                    "time_ms": 4013,
+                    "non_heap_mb": 31.21788787841797
+                },
+                {
+                    "heap_mb": 170.94017791748047,
+                    "time_ms": 4109,
+                    "non_heap_mb": 31.21788787841797
+                },
+                {
+                    "heap_mb": 90.55026245117188,
+                    "time_ms": 4205,
+                    "non_heap_mb": 31.22339630126953
+                },
+                {
+                    "heap_mb": 114.55026245117188,
+                    "time_ms": 4301,
+                    "non_heap_mb": 31.245872497558594
+                },
+                {
+                    "heap_mb": 142.55026245117188,
+                    "time_ms": 4413,
+                    "non_heap_mb": 31.245872497558594
+                },
+                {
+                    "heap_mb": 164.55026245117188,
+                    "time_ms": 4509,
+                    "non_heap_mb": 31.292503356933594
+                },
+                {
+                    "heap_mb": 76.99018859863281,
+                    "time_ms": 4605,
+                    "non_heap_mb": 31.33313751220703
+                },
+                {
+                    "heap_mb": 102.99018859863281,
+                    "time_ms": 4701,
+                    "non_heap_mb": 31.339401245117188
+                },
+                {
+                    "heap_mb": 132.9901885986328,
+                    "time_ms": 4813,
+                    "non_heap_mb": 31.348434448242188
+                },
+                {
+                    "heap_mb": 158.9901885986328,
+                    "time_ms": 4909,
+                    "non_heap_mb": 31.35211944580078
+                },
+                {
+                    "heap_mb": 182.9901885986328,
+                    "time_ms": 5005,
+                    "non_heap_mb": 31.36261749267578
+                },
+                {
+                    "heap_mb": 91.64155578613281,
+                    "time_ms": 5101,
+                    "non_heap_mb": 31.38983917236328
+                },
+                {
+                    "heap_mb": 121.64155578613281,
+                    "time_ms": 5213,
+                    "non_heap_mb": 31.40558624267578
+                },
+                {
+                    "heap_mb": 147.6415557861328,
+                    "time_ms": 5309,
+                    "non_heap_mb": 31.407516479492188
+                },
+                {
+                    "heap_mb": 171.6415557861328,
+                    "time_ms": 5405,
+                    "non_heap_mb": 31.408981323242188
+                },
+                {
+                    "heap_mb": 195.6415557861328,
+                    "time_ms": 5501,
+                    "non_heap_mb": 31.420852661132812
+                },
+                {
+                    "heap_mb": 86.39187622070312,
+                    "time_ms": 5612,
+                    "non_heap_mb": 31.494728088378906
+                },
+                {
+                    "heap_mb": 110.39187622070312,
+                    "time_ms": 5708,
+                    "non_heap_mb": 31.502052307128906
+                },
+                {
+                    "heap_mb": 138.39187622070312,
+                    "time_ms": 5804,
+                    "non_heap_mb": 31.520362854003906
+                },
+                {
+                    "heap_mb": 164.39187622070312,
+                    "time_ms": 5900,
+                    "non_heap_mb": 31.531349182128906
+                },
+                {
+                    "heap_mb": 192.39187622070312,
+                    "time_ms": 6012,
+                    "non_heap_mb": 31.55327606201172
+                },
+                {
+                    "heap_mb": 216.39187622070312,
+                    "time_ms": 6109,
+                    "non_heap_mb": 31.58751678466797
+                },
+                {
+                    "heap_mb": 100.88334655761719,
+                    "time_ms": 6205,
+                    "non_heap_mb": 31.58971405029297
+                },
+                {
+                    "heap_mb": 126.88334655761719,
+                    "time_ms": 6301,
+                    "non_heap_mb": 31.59398651123047
+                },
+                {
+                    "heap_mb": 158.8833465576172,
+                    "time_ms": 6413,
+                    "non_heap_mb": 31.59882354736328
+                },
+                {
+                    "heap_mb": 184.8833465576172,
+                    "time_ms": 6509,
+                    "non_heap_mb": 31.59882354736328
+                },
+                {
+                    "heap_mb": 210.8833465576172,
+                    "time_ms": 6605,
+                    "non_heap_mb": 31.629318237304688
+                },
+                {
+                    "heap_mb": 86.74827575683594,
+                    "time_ms": 6701,
+                    "non_heap_mb": 31.629318237304688
+                },
+                {
+                    "heap_mb": 116.74827575683594,
+                    "time_ms": 6813,
+                    "non_heap_mb": 31.632247924804688
+                },
+                {
+                    "heap_mb": 142.74827575683594,
+                    "time_ms": 6909,
+                    "non_heap_mb": 31.646560668945312
+                },
+                {
+                    "heap_mb": 168.74827575683594,
+                    "time_ms": 7005,
+                    "non_heap_mb": 31.649322509765625
+                },
+                {
+                    "heap_mb": 196.74827575683594,
+                    "time_ms": 7101,
+                    "non_heap_mb": 31.649322509765625
+                },
+                {
+                    "heap_mb": 226.74827575683594,
+                    "time_ms": 7213,
+                    "non_heap_mb": 31.650840759277344
+                },
+                {
+                    "heap_mb": 100.59832763671875,
+                    "time_ms": 7309,
+                    "non_heap_mb": 31.65778350830078
+                },
+                {
+                    "heap_mb": 126.59832763671875,
+                    "time_ms": 7405,
+                    "non_heap_mb": 31.66230010986328
+                },
+                {
+                    "heap_mb": 152.59832763671875,
+                    "time_ms": 7501,
+                    "non_heap_mb": 31.66230010986328
+                },
+                {
+                    "heap_mb": 184.59832763671875,
+                    "time_ms": 7613,
+                    "non_heap_mb": 31.671104431152344
+                },
+                {
+                    "heap_mb": 210.59832763671875,
+                    "time_ms": 7709,
+                    "non_heap_mb": 31.672889709472656
+                },
+                {
+                    "heap_mb": 81.48420715332031,
+                    "time_ms": 7805,
+                    "non_heap_mb": 31.67896270751953
+                },
+                {
+                    "heap_mb": 107.48420715332031,
+                    "time_ms": 7901,
+                    "non_heap_mb": 31.682571411132812
+                },
+                {
+                    "heap_mb": 137.4842071533203,
+                    "time_ms": 8013,
+                    "non_heap_mb": 31.706130981445312
+                },
+                {
+                    "heap_mb": 159.4842071533203,
+                    "time_ms": 8109,
+                    "non_heap_mb": 31.706130981445312
+                },
+                {
+                    "heap_mb": 185.4842071533203,
+                    "time_ms": 8205,
+                    "non_heap_mb": 31.744338989257812
+                },
+                {
+                    "heap_mb": 211.4842071533203,
+                    "time_ms": 8302,
+                    "non_heap_mb": 31.75153350830078
+                },
+                {
+                    "heap_mb": 81.55345153808594,
+                    "time_ms": 8413,
+                    "non_heap_mb": 31.774703979492188
+                },
+                {
+                    "heap_mb": 107.55345153808594,
+                    "time_ms": 8509,
+                    "non_heap_mb": 31.78045654296875
+                },
+                {
+                    "heap_mb": 133.55345153808594,
+                    "time_ms": 8605,
+                    "non_heap_mb": 31.797683715820312
+                },
+                {
+                    "heap_mb": 161.55345153808594,
+                    "time_ms": 8701,
+                    "non_heap_mb": 31.797683715820312
+                },
+                {
+                    "heap_mb": 191.55345153808594,
+                    "time_ms": 8813,
+                    "non_heap_mb": 31.797683715820312
+                },
+                {
+                    "heap_mb": 217.55345153808594,
+                    "time_ms": 8909,
+                    "non_heap_mb": 31.798416137695312
+                },
+                {
+                    "heap_mb": 81.6104736328125,
+                    "time_ms": 9005,
+                    "non_heap_mb": 31.798416137695312
+                },
+                {
+                    "heap_mb": 107.6104736328125,
+                    "time_ms": 9101,
+                    "non_heap_mb": 31.798416137695312
+                },
+                {
+                    "heap_mb": 137.6104736328125,
+                    "time_ms": 9212,
+                    "non_heap_mb": 31.808914184570312
+                },
+                {
+                    "heap_mb": 163.6104736328125,
+                    "time_ms": 9308,
+                    "non_heap_mb": 31.8099365234375
+                },
+                {
+                    "heap_mb": 191.6104736328125,
+                    "time_ms": 9405,
+                    "non_heap_mb": 31.81903076171875
+                },
+                {
+                    "heap_mb": 217.6104736328125,
+                    "time_ms": 9501,
+                    "non_heap_mb": 31.81976318359375
+                },
+                {
+                    "heap_mb": 83.18656921386719,
+                    "time_ms": 9611,
+                    "non_heap_mb": 31.843833923339844
+                },
+                {
+                    "heap_mb": 109.18656921386719,
+                    "time_ms": 9707,
+                    "non_heap_mb": 31.861167907714844
+                },
+                {
+                    "heap_mb": 137.1865692138672,
+                    "time_ms": 9803,
+                    "non_heap_mb": 31.867393493652344
+                },
+                {
+                    "heap_mb": 169.1865692138672,
+                    "time_ms": 9899,
+                    "non_heap_mb": 32.55101776123047
+                }
+            ]
+        },
+        "peak_memory_mb": 259.2992935180664,
+        "accuracy": 0.977,
+        "training_time_seconds": 9.9328654,
+        "training_time_ms": 9932.8654
+    },
+    "timestamp": "2025-05-18T22:12:32.030+0200"
+}

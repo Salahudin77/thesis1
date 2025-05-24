@@ -1,0 +1,135 @@
+{
+    "inference_runs": [
+        {
+            "memory_profile": {
+                "duration_ms": 2,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 13.598739624023438,
+                "gc_time_ms": 0,
+                "sample_count": 1,
+                "gc_count": 0,
+                "peak_non_heap_mb": 33.70574188232422,
+                "peak_total_mb": 47.304481506347656
+            },
+            "execution_time_ms": 2.2686,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.304481506347656,
+            "cpu_time_ms": 0,
+            "run": 1
+        },
+        {
+            "memory_profile": {
+                "duration_ms": 2,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 13.613494873046875,
+                "gc_time_ms": 0,
+                "sample_count": 1,
+                "gc_count": 0,
+                "peak_non_heap_mb": 33.71582794189453,
+                "peak_total_mb": 47.329322814941406
+            },
+            "execution_time_ms": 1.7865,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.329322814941406,
+            "cpu_time_ms": 0,
+            "run": 2
+        },
+        {
+            "memory_profile": {
+                "duration_ms": 2,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 13.62725830078125,
+                "gc_time_ms": 0,
+                "sample_count": 1,
+                "gc_count": 0,
+                "peak_non_heap_mb": 33.74085235595703,
+                "peak_total_mb": 47.36811065673828
+            },
+            "execution_time_ms": 1.7545,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.36811065673828,
+            "cpu_time_ms": 0,
+            "run": 3
+        },
+        {
+            "memory_profile": {
+                "duration_ms": 1,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 13.628982543945312,
+                "gc_time_ms": 0,
+                "sample_count": 1,
+                "gc_count": 0,
+                "peak_non_heap_mb": 33.743919372558594,
+                "peak_total_mb": 47.372901916503906
+            },
+            "execution_time_ms": 1.422,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.372901916503906,
+            "cpu_time_ms": 0,
+            "run": 4
+        },
+        {
+            "memory_profile": {
+                "duration_ms": 2,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 13.629669189453125,
+                "gc_time_ms": 0,
+                "sample_count": 1,
+                "gc_count": 0,
+                "peak_non_heap_mb": 33.7578125,
+                "peak_total_mb": 47.387481689453125
+            },
+            "execution_time_ms": 1.6806,
+            "memory_used_mb": 0,
+            "prediction": 2,
+            "peak_memory_mb": 47.387481689453125,
+            "cpu_time_ms": 0,
+            "run": 5
+        }
+    ],
+    "system_info": {
+        "available_processors": 12,
+        "max_memory_mb": 4078,
+        "total_memory_mb": 48,
+        "os_version": "10.0",
+        "os_arch": "amd64",
+        "java_version": "23.0.2",
+        "os_name": "Windows 10"
+    },
+    "inference_summary": {
+        "std_dev_peak_memory_mb": 0.030746053158172654,
+        "std_dev_memory_used_mb": 0,
+        "most_common_prediction": 2,
+        "average_execution_time_ms": 1.78244,
+        "average_memory_used_mb": 0,
+        "average_peak_memory_mb": 47.35245971679687,
+        "std_dev_execution_time_ms": 0.27474972320277236
+    },
+    "training": {
+        "evaluation": {
+            "precision": 0.9759932388553143,
+            "recall": 0.9760623536665829,
+            "accuracy": 0.9761,
+            "f1": 0.9759618880513875
+        },
+        "memory_profile": {
+            "duration_ms": 23029,
+            "sample_interval_ms": 100,
+            "peak_heap_mb": 381.8481140136719,
+            "gc_time_ms": 614,
+            "sample_count": 231,
+            "gc_count": 42,
+            "peak_non_heap_mb": 33.62920379638672,
+            "peak_total_mb": 415.4773178100586
+        },
+        "peak_memory_mb": 415.4773178100586,
+        "accuracy": 0.9761,
+        "training_time_seconds": 23.0294399,
+        "training_time_ms": 23029.4399
+    },
+    "timestamp": "2025-05-18T23:20:52.927+0200"
+}
