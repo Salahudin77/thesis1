@@ -1,0 +1,125 @@
+{
+    "timestamp": "2025-05-18T22:50:53.855",
+    "system_info": {
+        "available_processors": 12,
+        "max_memory_mb": 16310.6484375,
+        "total_memory_mb": 431.01953125,
+        "os_name": "Windows",
+        "os_version": "10.0.19045",
+        "os_arch": "AMD64",
+        "python_version": "3.10.13"
+    },
+    "model_creation": {
+        "time_ms": 24.024248123168945
+    },
+    "training": {
+        "time_ms": 15304.900646209717,
+        "cpu_time_ms": 142625.0,
+        "memory_used_mb": 1176.79296875,
+        "peak_memory_mb": 1749.53515625,
+        "accuracy": 0.9718999862670898,
+        "memory_profile": {
+            "summary": {
+                "duration_ms": 15305,
+                "sample_count": 146,
+                "sample_interval_ms": 100,
+                "peak_total_mb": 1749.53515625
+            }
+        }
+    },
+    "inference_runs": [
+        {
+            "run": 1,
+            "prediction": 2,
+            "execution_time_ms": 44.901132583618164,
+            "cpu_time_ms": 156.25,
+            "memory_used_mb": 0.0390625,
+            "peak_memory_mb": 430.33984375,
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 44,
+                    "sample_count": 4,
+                    "sample_interval_ms": 10,
+                    "peak_total_mb": 430.33984375
+                }
+            }
+        },
+        {
+            "run": 2,
+            "prediction": 2,
+            "execution_time_ms": 47.87397384643555,
+            "cpu_time_ms": 234.375,
+            "memory_used_mb": 0.28515625,
+            "peak_memory_mb": 430.609375,
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 47,
+                    "sample_count": 4,
+                    "sample_interval_ms": 10,
+                    "peak_total_mb": 430.609375
+                }
+            }
+        },
+        {
+            "run": 3,
+            "prediction": 2,
+            "execution_time_ms": 48.69794845581055,
+            "cpu_time_ms": 171.875,
+            "memory_used_mb": 0.19140625,
+            "peak_memory_mb": 430.609375,
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 48,
+                    "sample_count": 4,
+                    "sample_interval_ms": 10,
+                    "peak_total_mb": 430.609375
+                }
+            }
+        },
+        {
+            "run": 4,
+            "prediction": 2,
+            "execution_time_ms": 36.19718551635742,
+            "cpu_time_ms": 203.125,
+            "memory_used_mb": 0.19921875,
+            "peak_memory_mb": 430.640625,
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 36,
+                    "sample_count": 3,
+                    "sample_interval_ms": 10,
+                    "peak_total_mb": 430.640625
+                }
+            }
+        },
+        {
+            "run": 5,
+            "prediction": 2,
+            "execution_time_ms": 40.82298278808594,
+            "cpu_time_ms": 218.75,
+            "memory_used_mb": 0.2265625,
+            "peak_memory_mb": 430.83203125,
+            "memory_profile": {
+                "summary": {
+                    "duration_ms": 40,
+                    "sample_count": 3,
+                    "sample_interval_ms": 10,
+                    "peak_total_mb": 430.83203125
+                }
+            }
+        }
+    ],
+    "summary": {
+        "model_creation_time_ms": 24.024248123168945,
+        "training_time_ms": 15304.900646209717,
+        "training_peak_memory_mb": 1749.53515625,
+        "average_inference_time_ms": 43.69864463806152,
+        "std_dev_inference_time_ms": 5.206095224582262,
+        "average_inference_memory_mb": 0.18828125,
+        "std_dev_inference_memory_mb": 0.09116722219275825,
+        "average_inference_peak_memory_mb": 430.60625,
+        "std_dev_inference_peak_memory_mb": 0.17546412365895842,
+        "most_common_prediction": 2,
+        "total_time_ms": 15372.623538970947
+    }
+}

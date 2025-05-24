@@ -1,0 +1,122 @@
+{
+    "timestamp": "2025-05-19T00:29:42.688",
+    "system_info": {
+        "available_processors": 12,
+        "max_memory_mb": 16310.6484375,
+        "total_memory_mb": 16310.6484375,
+        "os_name": "Windows",
+        "os_version": "10.0.19045",
+        "os_arch": "AMD64",
+        "python_version": "3.10.13"
+    },
+    "training": {
+        "training_time_ms": 12879.941701889038,
+        "training_time_seconds": 12.879941701889038,
+        "peak_memory_mb": 1908.5,
+        "accuracy": 0.9767000079154968,
+        "memory_profile": {
+            "sample_count": 121,
+            "sample_interval_ms": 100,
+            "peak_heap_mb": 1908.5,
+            "peak_virtual_mb": 1876.01953125,
+            "peak_total_mb": 1908.5
+        },
+        "evaluation": {
+            "accuracy": 0.9767000079154968,
+            "precision": 0.9767000079154968,
+            "recall": 0.9767000079154968,
+            "f1": 0.9767000079154968
+        }
+    },
+    "inference_runs": [
+        {
+            "run": 1,
+            "prediction": 2,
+            "execution_time_ms": 37.32705116271973,
+            "cpu_time_ms": 218.75,
+            "memory_used_mb": 0.1484375,
+            "peak_memory_mb": 417.5390625,
+            "memory_profile": {
+                "sample_count": 3,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 417.5390625,
+                "peak_virtual_mb": 382.21484375,
+                "peak_total_mb": 417.5390625,
+                "duration_ms": 37.32705116271973
+            }
+        },
+        {
+            "run": 2,
+            "prediction": 2,
+            "execution_time_ms": 41.600704193115234,
+            "cpu_time_ms": 46.875,
+            "memory_used_mb": 0.1015625,
+            "peak_memory_mb": 417.6953125,
+            "memory_profile": {
+                "sample_count": 3,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 417.6953125,
+                "peak_virtual_mb": 382.36328125,
+                "peak_total_mb": 417.6953125,
+                "duration_ms": 41.600704193115234
+            }
+        },
+        {
+            "run": 3,
+            "prediction": 2,
+            "execution_time_ms": 43.22648048400879,
+            "cpu_time_ms": 234.375,
+            "memory_used_mb": 0.0859375,
+            "peak_memory_mb": 417.7578125,
+            "memory_profile": {
+                "sample_count": 3,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 417.7578125,
+                "peak_virtual_mb": 382.38671875,
+                "peak_total_mb": 417.7578125,
+                "duration_ms": 43.75576972961426
+            }
+        },
+        {
+            "run": 4,
+            "prediction": 2,
+            "execution_time_ms": 39.69168663024902,
+            "cpu_time_ms": 218.75,
+            "memory_used_mb": 0.0078125,
+            "peak_memory_mb": 417.86328125,
+            "memory_profile": {
+                "sample_count": 3,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 417.86328125,
+                "peak_virtual_mb": 382.46875,
+                "peak_total_mb": 417.86328125,
+                "duration_ms": 39.69168663024902
+            }
+        },
+        {
+            "run": 5,
+            "prediction": 2,
+            "execution_time_ms": 48.21944236755371,
+            "cpu_time_ms": 406.25,
+            "memory_used_mb": 0.15625,
+            "peak_memory_mb": 418.0390625,
+            "memory_profile": {
+                "sample_count": 4,
+                "sample_interval_ms": 10,
+                "peak_heap_mb": 418.0390625,
+                "peak_virtual_mb": 382.65234375,
+                "peak_total_mb": 418.0390625,
+                "duration_ms": 48.21944236755371
+            }
+        }
+    ],
+    "inference_summary": {
+        "average_execution_time_ms": 42.0130729675293,
+        "std_dev_execution_time_ms": 4.108194914399217,
+        "average_memory_used_mb": 0.1,
+        "std_dev_memory_used_mb": 0.05960072225862704,
+        "average_peak_memory_mb": 417.77890625,
+        "std_dev_peak_memory_mb": 0.18692130749412306,
+        "most_common_prediction": 2
+    }
+}

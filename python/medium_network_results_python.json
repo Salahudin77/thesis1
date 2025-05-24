@@ -1,0 +1,34 @@
+{
+    "timestamp": "2025-05-19T00:24:52.316",
+    "system_info": {
+        "available_processors": 12,
+        "max_memory_mb": 16310.6484375,
+        "total_memory_mb": 16310.6484375,
+        "os_name": "Windows",
+        "os_version": "10.0.19045",
+        "os_arch": "AMD64",
+        "python_version": "3.10.13"
+    },
+    "training": {
+        "training_time_ms": 20907.75990486145,
+        "training_time_seconds": 20.90775990486145,
+        "peak_memory_mb": 1904.5546875,
+        "accuracy": 0.9800999760627747,
+        "memory_profile": {
+            "sample_count": 199,
+            "sample_interval_ms": 100,
+            "peak_heap_mb": 1904.5546875,
+            "peak_virtual_mb": 1874.3828125,
+            "peak_total_mb": 1904.5546875
+        },
+        "evaluation": {
+            "accuracy": 0.9800999760627747,
+            "precision": 0.9800999760627747,
+            "recall": 0.9800999760627747,
+            "f1": 0.9800999760627747
+        }
+    },
+    "inference_runs": [
+        {
+            "run": 1,
+            "prediction": 
